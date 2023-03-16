@@ -2,9 +2,6 @@
 
 return [
 
-    'date_format' => 'm/d/Y',
-    'date_format_javascript' => 'MM/DD/YYYY',
-
     /*
     |--------------------------------------------------------------------------
     | Application Name

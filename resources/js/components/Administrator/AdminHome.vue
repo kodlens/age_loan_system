@@ -1,42 +1,6 @@
 <template>
     <div>
         <div class="section">
-            <div class="columns is-centered">
-                <div class="column is-4">
-                    <div class="box">
-                        <div class="w-head-title">
-                            NO OF USERS
-                        </div>
-                        <div class="w-content">
-                            {{ info.user }}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column is-4">
-                    <div class="box">
-                        <div class="w-head-title">
-                            NO OF APPOINTMENTS
-                        </div>
-                        <div class="w-content">
-                            {{ info.appointment }}
-                        </div>
-                    </div>
-                </div>
-            </div><!--cols-->
-
-            <div class="columns is-centered">
-                <div class="column is-4">
-                    <div class="box">
-                        <div class="w-head-title">
-                            NO OF PATIENT
-                        </div>
-                        <div class="w-content">
-                            {{ info.admit }}
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
 

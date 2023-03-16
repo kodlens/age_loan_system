@@ -26,8 +26,6 @@ class MyProfileController extends Controller
 
     public function update(Request $req, $id){
 
-        //return $req;
-
         $data = User::find($id);
         $data->lname = strtoupper($req->lname);
         $data->fname = strtoupper($req->fname);

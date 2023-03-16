@@ -1,5 +1,5 @@
 @extends('layouts.user-layout')
 @section('content')
-    <my-profile></my-profile>
+    <my-profie></my-profie>
 @endsection
 
