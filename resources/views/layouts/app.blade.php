@@ -40,6 +40,7 @@
                     Home
                 </b-navbar-item>
 
+
                 <b-navbar-item href="/academic-years"
                     class="{{ (request()->is('academic-years*')) ? 'active' : '' }}">
                     Academic Year

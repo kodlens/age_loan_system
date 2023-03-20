@@ -71,6 +71,7 @@ Route::middleware(['auth'])->group(function() {
 
     Route::resource('/cpanel/home', App\Http\Controllers\Administrator\AdminHomeController::class);
 
+
     Route::resource('/users', App\Http\Controllers\Administrator\UserController::class);
     Route::get('/get-users',[App\Http\Controllers\Administrator\UserController::class, 'getUsers']);
 
